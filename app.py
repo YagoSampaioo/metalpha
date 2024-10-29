@@ -77,7 +77,6 @@ else:
                 'Taxa de Cliques (CTR)': insights.get('ctr', 0),
                 'Custo por Conversão': insights.get('cost_per_conversion', 0),
                 'Mensagens Entregues (%)': insights.get('marketing_messages_delivery_rate', 0),
-                'Cópias': ad.get('copies', 'N/A')
             }
             campaign_ads_mapping[campaign_name].append(ad_info)
 
